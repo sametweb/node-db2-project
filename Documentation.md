@@ -54,6 +54,6 @@ Body:
 
 Returns updated car object.
 
-## DELETE: /api/cars/:id
+### DELETE: /api/cars/:id
 
 Returns 200 HTTP Status if the request is successful.
