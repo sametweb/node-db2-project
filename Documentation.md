@@ -36,3 +36,24 @@ Body:
 ```
 
 Returns newly added car object.
+
+### PATCH: /api/cars/:id
+
+Body:
+
+```javascript
+{
+	"VIN": "ASDFGHWERTYU12345",
+	"make": "Mercedes",
+	"model": "E180",
+	"milage": 125000,
+	"transmission": "auto",
+	"title_status": "clean"
+}
+```
+
+Returns updated car object.
+
+## DELETE: /api/cars/:id
+
+Returns 200 HTTP Status if the request is successful.
