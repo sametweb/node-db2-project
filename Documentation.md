@@ -12,15 +12,15 @@
 
 ## Endpoints
 
-### GET: _/api/cars_
+### GET: /api/cars
 
 Returns a collection (array) of cars.
 
-### GET: _/api/cars/:id_
+### GET: /api/cars/:id
 
 Returns an object containing specified car's information.
 
-### POST: _/api/cars_
+### POST: /api/cars
 
 Body:
 
